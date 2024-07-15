@@ -96,56 +96,8 @@ A tag `<aside>` é usada para definir um conteúdo adicional que pode ser consid
 ```
 
 ### 8. Main (Conteúdo principal)
-A tag `<main>` especifica o conteúdo principal do documento.
+Neste exemplo, o `<main>` contém um `<header>`, várias `<section>`, `<div>`, `<article>`, `<aside>`, `<figure>`, e um `<footer>`, mostrando como é possível estruturar diversos tipos de conteúdo dentro do elemento principal da página.
 ```r
-<main>
-  <h1>Conteúdo Principal</h1>
-  <p>Este é o conteúdo principal da página.</p>
-</main>
-```
-
-### 9. Figure (Figura)
-A tag `<figure>` especifica conteúdo que é auto-contido, como ilustrações, diagramas, fotos, etc.
-```r
-<figure>
-  <img src="imagem.jpg" alt="Descrição da imagem">
-  <figcaption>Legenda da imagem.</figcaption>
-</figure>
-```
-
-### 10. Figcaption (Legenda da figura)
-A tag `<figcaption>` define uma legenda para o elemento <figure>.
-```r
-<figure>
-  <img src="imagem.jpg" alt="Descrição da imagem">
-  <figcaption>Legenda da imagem.</figcaption>
-</figure>
-```
-
-
-
-Main (Conteúdo principal)
-html
-Copiar código
-
-Figure (Figura)
-html
-Copiar código
-
-Figcaption (Legenda da figura)
-html
-Copiar código
-
-Esses exemplos mostram como cada tag pode ser usada para estruturar o conteúdo de uma página HTML de maneira semântica e organizada.
-
-dentro de um main eu posso ter divs, sections e mais?
-ChatGPT
-Sim, dentro de um elemento <main>, você pode ter <div>, <section>, e outros elementos HTML. O <main> é usado para envolver o conteúdo principal de uma página, e pode conter uma variedade de elementos de bloco para estruturar esse conteúdo.
-
-Aqui está um exemplo:
-
-html
-Copiar código
 <main>
   <header>
     <h1>Título Principal</h1>
@@ -180,27 +132,16 @@ Copiar código
     <p>Rodapé do conteúdo principal.</p>
   </footer>
 </main>
-Neste exemplo, o <main> contém um <header>, várias <section>, <div>, <article>, <aside>, <figure>, e um <footer>, mostrando como é possível estruturar diversos tipos de conteúdo dentro do elemento principal da página.
+```
+### 9. Body
+O `<body>` é o contêiner principal para todo o conteúdo de uma página HTML. Pode incluir qualquer elemento HTML, incluindo `<main>`, `<header>`, `<footer>`, `<section>`, `<div>`, `<article>`, `<aside>`, e muitos outros.
 
+`<header>` contém o título do site e o menu de navegação.
+`<main>` contém o conteúdo principal, incluindo uma `<section>`, um `<div>`, um `<article>`, um `<aside>`, e um `<figure>`.
+`<footer>` contém o rodapé do site.
 
-2/2
-
-e o body?
-ChatGPT
-O <body> é o contêiner principal para todo o conteúdo de uma página HTML. Dentro do <body>, você pode incluir qualquer elemento HTML, incluindo <main>, <header>, <footer>, <section>, <div>, <article>, <aside>, e muitos outros.
-
-Aqui está um exemplo completo que mostra como você pode estruturar um documento HTML com todos esses elementos:
-
-html
-Copiar código
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exemplo de Estrutura HTML</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+Todos esses elementos estão aninhados dentro do `<body>`, que é o contêiner principal para o conteúdo da página.
+```r
 <body>
   <header>
     <h1>Meu Site</h1>
@@ -245,10 +186,37 @@ Copiar código
     <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
   </footer>
 </body>
-</html>
-Neste exemplo, o documento HTML está estruturado da seguinte forma:
+```
 
-O <header> contém o título do site e o menu de navegação.
-O <main> contém o conteúdo principal, incluindo uma <section>, um <div>, um <article>, um <aside>, e um <figure>.
-O <footer> contém o rodapé do site.
-Todos esses elementos estão aninhados dentro do <body>, que é o contêiner principal para o conteúdo da página.
+### 10. Figure (Figura)
+A tag `<figure>` especifica conteúdo que é auto-contido, como ilustrações, diagramas, fotos, etc.
+```r
+<figure>
+  <img src="imagem.jpg" alt="Descrição da imagem">
+  <figcaption>Legenda da imagem.</figcaption>
+</figure>
+```
+
+### 11. Figcaption (Legenda da figura)
+A tag `<figcaption>` define uma legenda para o elemento <figure>.
+```r
+<figure>
+  <img src="imagem.jpg" alt="Descrição da imagem">
+  <figcaption>Legenda da imagem.</figcaption>
+</figure>
+```
+## :telephone_receiver:	Contato
+Para saber mais sobre meus trabalhos, entre em contato comigo através do <a href="https://www.linkedin.com/in/jfeliperamos/">LinkedIn</a> ou visite meu <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">GitHub.</a> 
+
+<div align=center>
+    <a href="https://www.linkedin.com/in/jfeliperamos/">
+        <img src="https://github.com/user-attachments/assets/0350e54a-100e-4273-aa51-81aa9fce3d79" alt="LinkedIn" width="25">
+    </a> 
+    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">
+        <img src="https://github.com/user-attachments/assets/3fda6271-fd40-4485-bb7c-60b927b9feae" alt="GitHub" width="25">
+    </a>
+</div>
+
+
+> [!WARNING]
+> Este código é disponibilizado exclusivamente para fins de estudo e aprendizado. A reprodução total ou parcial deste código, sem autorização prévia, é expressamente proibida. A utilização deste código em projetos comerciais, distribuição não autorizada ou qualquer outro uso que não seja educativo pode resultar em sanções legais. Ao utilizar este código, você concorda em respeitar os termos de uso e a propriedade intelectual do autor.
