@@ -6,12 +6,17 @@
 </div>
 
 ## :bookmark_tabs:	Índice
-* [Header (Cabeçalho)](#header-cabeçalho)
-* [Footer (Rodapé)](#footer-rodapé)
-* [Section (Seção)](#section-seção)
-* [Nav (Menu de navegação)](#nav-menu-de-navegação)
-* [Aticle (Artigo)](#aticle-artigo)
-* [Aside ()](#aside-)
+* [1. Div (Divisão ou seção)](#1-div-divisão-ou-seção)
+* [2. Header (Cabeçalho)](#2-header-cabeçalho)
+* [3. Footer (Rodapé)](#3-footer-rodapé)
+* [4. Section (Seção)](#4-section-seção)
+* [5. Nav (Menu de navegação)](#5-nav-menu-de-navegação)
+* [6. Aticle (Artigo)](#6-article-artigo)
+* [7. Aside (Conteúdo)](#7-aside-conteúdo-relacionado)
+* [8. Main (Conteúdo principal)](#8-main-conteúdo-principal)
+* [9. Body (Conteúdo de uma página HTML)](#9-body)
+* [10. Figura](#10-figure-figura)
+* [11. Legenda da Figura](#11-figcaption-legenda-da-figura)
 
 ## :computer:	Ferramentas e linguagens utilizadas no desenvolvimento
 <div align="auto">
@@ -198,7 +203,7 @@ A tag `<figure>` especifica conteúdo que é auto-contido, como ilustrações, d
 ```
 
 ### 11. Figcaption (Legenda da figura)
-A tag `<figcaption>` define uma legenda para o elemento <figure>.
+A tag `<figcaption>` define uma legenda para o elemento `<figure>`.
 ```r
 <figure>
   <img src="imagem.jpg" alt="Descrição da imagem">
