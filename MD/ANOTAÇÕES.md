@@ -1,29 +1,198 @@
-# **Tags HTML**
+# **Estrutura HTML**
 
 ## Índice
-* [1. Definir HTML](#1-definir-o-documento-html)
-* [2. Cabeçalho e Parágrafos](#2-cabeçalhos-e-parágrafos)
-* [3. Definir Parágrafo](#3-definir-um-parágrafo)
-* [4. Botões *(Buttons)*](#4-botão)
-* [5. Formatação de Texto](#5-formatação-de-texto)
-* [6. Listas](#6-listas)
-* [7. Links e Imagens](#7-links-e-imagens)
-* [8. Tabelas](#8-tabelas)
-* [9. Outras Tags](#9-outras-tags)
+* [Div (Divisão ou seção)](#div-divisão-ou-seção)
+* [Header (Cabeçalho)](#header-cabeçalho)
+* [Footer (Rodapé)](#footer-rodapé)
+* [Section (Seção)](#section-seção)
+* [Nav (Menu de navegação)](#nav-menu-de-navegação)
+* [Aticle (Artigo)](#aticle-artigo)
+* [Aside ()](#aside-)
+ChatGPT
+Sim, existem mais algumas tags de estrutura no HTML5 que podem ser úteis para organizar e estruturar seu conteúdo. Aqui está uma lista atualizada com outras tags de estrutura:
 
-## Ferramentas utilizadas no desenvolvimento
-<div align="auto">
-    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b0cd55d7-f6f0-4cf9-a90d-db45c1832215" alt="html" width="50"></a>
-    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/6bcb928a-c5f9-4030-9258-3cacee37f553" alt="css" width="50"></a>
-    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/64486d67-8973-4b62-bdfc-212cf9f16709" alt="md" width="50"></a>
-    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/d3813ef4-1409-40c9-9bfb-6e988f79b2c8" alt="Git" width="50"></a>
-    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b03adba8-e155-4555-8737-2afaf449620d" alt="Node" width="50"></a>
+Índice
+Div (Divisão ou seção)
+Header (Cabeçalho)
+Footer (Rodapé)
+Section (Seção)
+Nav (Menu de navegação)
+Article (Artigo)
+Aside (Conteúdo relacionado)
+Main (Conteúdo principal)
+Figure (Figura)
+Figcaption (Legenda da figura)
+
+
+## Div (Divisão ou seção)
+A tag <div> é usada como um contêiner genérico para agrupar elementos de bloco para fins de estilo (usando CSS) ou scripting (usando JavaScript).
+
+## Header (Cabeçalho)
+A tag <header> representa um cabeçalho de introdução ou grupo de navegação.
+
+## Footer (Rodapé)
+A tag <footer> define o rodapé para um documento ou seção.
+
+## Section (Seção)
+A tag <section> define uma seção em um documento.
+
+## Nav (Menu de navegação)
+A tag <nav> define um conjunto de links de navegação.
+
+## Article (Artigo)
+A tag <article> define conteúdo independente e isolável que é relevante dentro do contexto de um documento.
+
+## Aside (Conteúdo relacionado)
+A tag <aside> é usada para definir um conteúdo adicional que pode ser considerado separado do conteúdo principal.
+
+Main (Conteúdo principal)
+A tag <main> especifica o conteúdo principal do documento.
+
+Figure (Figura)
+A tag <figure> especifica conteúdo que é auto-contido, como ilustrações, diagramas, fotos, etc.
+
+Figcaption (Legenda da figura)
+A tag <figcaption> define uma legenda para o elemento <figure>.
+
+me dê um exemplo de cada um
+ChatGPT
+Claro, aqui estão exemplos para cada uma das tags de estrutura mencionadas:
+
+Div (Divisão ou seção)
+html
+Copiar código
+<div class="container">
+  <p>Este é um parágrafo dentro de um div.</p>
 </div>
+Header (Cabeçalho)
+html
+Copiar código
+<header>
+  <h1>Meu Site</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+Footer (Rodapé)
+html
+Copiar código
+<footer>
+  <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+</footer>
+Section (Seção)
+html
+Copiar código
+<section>
+  <h2>Seção 1</h2>
+  <p>Conteúdo da seção 1.</p>
+</section>
+Nav (Menu de navegação)
+html
+Copiar código
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">Sobre</a></li>
+    <li><a href="#services">Serviços</a></li>
+    <li><a href="#contact">Contato</a></li>
+  </ul>
+</nav>
+Article (Artigo)
+html
+Copiar código
+<article>
+  <h2>Título do Artigo</h2>
+  <p>Este é o conteúdo do artigo.</p>
+</article>
+Aside (Conteúdo relacionado)
+html
+Copiar código
+<aside>
+  <h3>Informações Adicionais</h3>
+  <p>Conteúdo relacionado ao artigo principal.</p>
+</aside>
+Main (Conteúdo principal)
+html
+Copiar código
+<main>
+  <h1>Conteúdo Principal</h1>
+  <p>Este é o conteúdo principal da página.</p>
+</main>
+Figure (Figura)
+html
+Copiar código
+<figure>
+  <img src="imagem.jpg" alt="Descrição da imagem">
+  <figcaption>Legenda da imagem.</figcaption>
+</figure>
+Figcaption (Legenda da figura)
+html
+Copiar código
+<figure>
+  <img src="imagem.jpg" alt="Descrição da imagem">
+  <figcaption>Legenda da imagem.</figcaption>
+</figure>
+Esses exemplos mostram como cada tag pode ser usada para estruturar o conteúdo de uma página HTML de maneira semântica e organizada.
 
-### 1. Definir o documento HTML
-Para iniciar o novo documento `<!DOCTYPE html>` digite `html` ou `!` e depois tecle `Enter` que iniciará.
- 
-```r
+dentro de um main eu posso ter divs, sections e mais?
+ChatGPT
+Sim, dentro de um elemento <main>, você pode ter <div>, <section>, e outros elementos HTML. O <main> é usado para envolver o conteúdo principal de uma página, e pode conter uma variedade de elementos de bloco para estruturar esse conteúdo.
+
+Aqui está um exemplo:
+
+html
+Copiar código
+<main>
+  <header>
+    <h1>Título Principal</h1>
+  </header>
+  
+  <section>
+    <h2>Seção 1</h2>
+    <p>Conteúdo da seção 1.</p>
+  </section>
+
+  <div class="container">
+    <h2>Divisão</h2>
+    <p>Conteúdo dentro de um div.</p>
+  </div>
+  
+  <article>
+    <h2>Artigo</h2>
+    <p>Este é o conteúdo do artigo.</p>
+  </article>
+
+  <aside>
+    <h3>Informações Adicionais</h3>
+    <p>Conteúdo relacionado ao artigo principal.</p>
+  </aside>
+  
+  <figure>
+    <img src="imagem.jpg" alt="Descrição da imagem">
+    <figcaption>Legenda da imagem.</figcaption>
+  </figure>
+
+  <footer>
+    <p>Rodapé do conteúdo principal.</p>
+  </footer>
+</main>
+Neste exemplo, o <main> contém um <header>, várias <section>, <div>, <article>, <aside>, <figure>, e um <footer>, mostrando como é possível estruturar diversos tipos de conteúdo dentro do elemento principal da página.
+
+
+2/2
+
+e o body?
+ChatGPT
+O <body> é o contêiner principal para todo o conteúdo de uma página HTML. Dentro do <body>, você pode incluir qualquer elemento HTML, incluindo <main>, <header>, <footer>, <section>, <div>, <article>, <aside>, e muitos outros.
+
+Aqui está um exemplo completo que mostra como você pode estruturar um documento HTML com todos esses elementos:
+
+html
+Copiar código
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -33,186 +202,53 @@ Para iniciar o novo documento `<!DOCTYPE html>` digite `html` ou `!` e depois te
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    [Conteúdo da página]
+  <header>
+    <h1>Meu Site</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Seção 1</h2>
+      <p>Conteúdo da seção 1.</p>
+    </section>
+
+    <div class="container">
+      <h2>Divisão</h2>
+      <p>Conteúdo dentro de um div.</p>
+    </div>
+    
+    <article>
+      <h2>Artigo</h2>
+      <p>Este é o conteúdo do artigo.</p>
+    </article>
+
+    <aside>
+      <h3>Informações Adicionais</h3>
+      <p>Conteúdo relacionado ao artigo principal.</p>
+    </aside>
+    
+    <figure>
+      <img src="imagem.jpg" alt="Descrição da imagem">
+      <figcaption>Legenda da imagem.</figcaption>
+    </figure>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
-```
+Neste exemplo, o documento HTML está estruturado da seguinte forma:
 
-### 2. Cabeçalhos
-Definem cabeçalhos, sendo `h1` o mais importante e `h6` o menos importante.
-
-```r
-<h1>Cabeçalho h1</h1>
-<h2>Cabeçalho h2</h2>
-<h3>Cabeçalho h3</h3>
-<h4>Cabeçalho h4</h4>
-<h5>Cabeçalho h5</h5>
-<h6>Cabeçalho h6</h6>
-```
-
-### 3. Definir um parágrafo
-Detalhes sobre como usar a tag `<p>` para criar e formatar parágrafos de texto.
-```r
-<p>Este é um parágrafo de texto.</p>
-```
-
-### 4. Botões *(Buttons)*
-Como criar e estilizar botões usando a tag `<button>` e o elemento `<input type="button">`.
-```r
-<button type="button">Clique Aqui</button>
-```
-
-### 5. Formatação de Texto
-Abordagem sobre como aplicar formatação de texto, incluindo negrito `<b>`, itálico `<i>`, sublinhado `<u>` e outros.
-* Negrito `<b>`
-```r
-<b>
-    Texto em negrito
-</b>
-```
-* Itálico `<i>`
-```r
-<i>
-    Texto em itálico
-</i>
-```
-* Sublinhado `<u>`
-```r
-<u>
-    Texto Sublinhado
-</u>
-```
-* Destaque Negrito `<strong>`
-```r
-<p>
-    Texto em <strong>destaque</strong>
-</p>
-```
-* Span `<span>`
-```r
-<p>
-    Texto <span>importante</span>
-</p>
-```
-* Small `<small>`
-```r
-<p>
-    Texto <small>pequeno</small>
-</p>
-```
-
-### 6. Listas
-Apresenta as tags com as listas ordenadas `<ol>` e não ordenadas `<ul>`.
-* Lista não ordenada `<ul>`
-
-```r
-<ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-</ul>
-```
-* Lista ordenada `<ol>`
-```r
-<ol>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-</ol>
-```
-
-### 7. Links e Imagens
-Como criar links usando a tag `<a>` e inserir imagens com a tag `<img>`.
-
-* Hiperlink `<a>`
-```r
-<a href="https://www.exemplo.com" target="_blank" title="Visite o Exemplo">Clique Aqui</a>
-```
-* Imagem `<img>`
-```r
-<img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
-```
-* Imagem + Link
-```r
-<a 
-href="https://www.exemplo.com">
-    <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
-</a>
-```
-
-### 8. Tabelas
-Como construir e estilizar tabelas usando as tags:
-
-`<table>` Define uma tabela. É o contêiner principal para todos os elementos de uma tabela.
-
-`<thead>` Agrupa o conteúdo de cabeçalho da tabela. Geralmente, isso inclui uma ou mais linhas de cabeçalho `<tr>` com células de cabeçalho `<th>`.
-
-`<tbody>` Agrupa o conteúdo do corpo da tabela. Contém uma ou mais linhas `<tr>` com células de dados `<td>`.
-
-`<tr>` Define uma linha em uma tabela. Pode ser usada tanto no cabeçalho `<thead>` quanto no corpo `<tbody>` da tabela.
-
-`<td>` Define uma célula de dados em uma tabela. É usada dentro de uma linha `<tr>` para conter os dados da tabela.
-
-* Definir uma tabela
-```r
-<table>
-    <thead>
-        <tr>
-            <th>Coluna 1</th>
-            <th>Coluna 2</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Dado 1</td>
-            <td>Dado 2</td>
-        </tr>
-        <tr>
-            <td>Dado 3</td>
-            <td>Dado 4</td>
-        </tr>
-    </tbody>
-</table>
-```
-
-### 9. Outras tags
-Exploração de outras tags HTML úteis, como `<script>`, `<link>`, `<meta>`e `<style>`.
-
-* Script `<script>`
-```r
-<script>
-    console.log('Olá, mundo!');
-</script>
-```
-* Link para CSS `<link>`
-```r
-<link rel="stylesheet" href="estilos.css">
-```
-* Metadados `<meta>`
-```r
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Título do site">
-```
-* Estilos embutidos `<style>`
-```r
-<style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-</style>
-```
-## Contato
-Para saber mais sobre meus trabalhos, entre em contato comigo através do <a href="https://www.linkedin.com/in/jfeliperamos/">LinkedIn</a> ou visite meu <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">GitHub.</a> 
-
-<div align=center>
-    <a href="https://www.linkedin.com/in/jfeliperamos/">
-        <img src="https://github.com/user-attachments/assets/0350e54a-100e-4273-aa51-81aa9fce3d79" alt="LinkedIn" width="25">
-    </a> 
-    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">
-        <img src="https://github.com/user-attachments/assets/3fda6271-fd40-4485-bb7c-60b927b9feae" alt="GitHub" width="25">
-    </a>
-</div>
-
-> [!WARNING]
-> Este código é disponibilizado exclusivamente para fins de estudo e aprendizado. A reprodução total ou parcial deste código, sem autorização prévia, é expressamente proibida. A utilização deste código em projetos comerciais, distribuição não autorizada ou qualquer outro uso que não seja educativo pode resultar em sanções legais. Ao utilizar este código, você concorda em respeitar os termos de uso e a propriedade intelectual do autor.
+O <header> contém o título do site e o menu de navegação.
+O <main> contém o conteúdo principal, incluindo uma <section>, um <div>, um <article>, um <aside>, e um <figure>.
+O <footer> contém o rodapé do site.
+Todos esses elementos estão aninhados dentro do <body>, que é o contêiner principal para o conteúdo da página.
